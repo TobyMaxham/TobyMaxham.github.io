@@ -1,9 +1,668 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<title>TobyMaxham @GitHub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tobias Maxham - Projekt Portfolio">
+    <!-- Title-->
+    <title>Tobias Maxham - Projekt Portfolio</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- All CSS Stylesheet-->
+    <link rel="stylesheet" href="https://maxham.de/theme/projects/css/all-css-libraries.css">
+    <!-- Core Stylesheet-->
+    <link rel="stylesheet" href="https://maxham.de/theme/projects/style.css">
 </head>
 <body>
-<h1>Hello World</h1>
+<!-- Preloader-->
+<div class="preloader" id="preloader">
+    <div class="spinner-grow text-light" role="status"><span class="visually-hidden">Laden...</span></div>
+</div>
+
+
+<!-- Service Area -->
+<div class="service-area service3 bg-gray pt-120 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-9 col-lg-8">
+                <div class="section-heading">
+                    <h6>Über 21 Jahre Erfahrung</h6>
+                    <h2>Software Entwicklung und Server Management</h2>
+                    <p>Angefangen mit eigenen MMORPG-Servern entwickle ich heute moderne Software mit PHP und Laravel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-5 g-lg-4">
+            <!-- Single Service Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card service2-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="100ms">
+                    <div class="card-body">
+                        <div class="icon"><i class="bi bi-box2-heart"></i></div>
+                        <h5>Laravel</h5>
+                        <p>Ich liebe PHP, Laravel und WordPress. Backend ist meine Leidenschaft.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Service Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card service2-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="card-body">
+                        <div class="icon"><i class="bi bi-server"></i></div>
+                        <h5>Server</h5>
+                        <p>Verwaltung von Linux&Microsoft Servern seit über 21.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Service Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card service2-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <div class="card-body">
+                        <div class="icon"><i class="bi bi-github"></i></div>
+                        <h5>GitHub</h5>
+                        <p class="mb-4">Wöchentliche Commits auf GitHub.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Service Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card service2-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+                    <div class="card-body">
+                        <div class="icon"><i class="bi bi-star"></i></div>
+                        <h5>Hobby und Beruf</h5>
+                        <p>Mit der Softwareentwicklung habe ich mein Hobby zum Beruf gemacht.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mb-120 d-block"></div>
+
+
+
+<!-- Features Area-->
+<div class="saasbox-tab-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-9 col-lg-8">
+                <div class="section-heading text-center">
+                    <h6>Projekte</h6>
+                    <h2>Hier siehst du eine übersicht meiner größten Projekten.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="tab--area">
+
+                    <ul class="nav nav-tabs" id="saasboxTab" role="tablist">
+                                                    <li class="nav-item">
+                                <a class="nav-link active"
+                                   id="tab--1"
+                                   data-bs-toggle="tab"
+                                   href="#tab1"
+                                   role="tab"
+                                   aria-controls="tab1"
+                                   aria-selected="true">
+                                    Sitealarm
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link "
+                                   id="tab--2"
+                                   data-bs-toggle="tab"
+                                   href="#tab2"
+                                   role="tab"
+                                   aria-controls="tab2"
+                                   aria-selected="true">
+                                    Projekt Manager
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link "
+                                   id="tab--3"
+                                   data-bs-toggle="tab"
+                                   href="#tab3"
+                                   role="tab"
+                                   aria-controls="tab3"
+                                   aria-selected="true">
+                                    Server Deployment
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link "
+                                   id="tab--4"
+                                   data-bs-toggle="tab"
+                                   href="#tab4"
+                                   role="tab"
+                                   aria-controls="tab4"
+                                   aria-selected="true">
+                                    URL Shortener
+                                </a>
+                            </li>
+                                            </ul>
+
+                    <div class="tab-content" id="saasboxTabContent">
+                                                    <!-- Tab Pane-->
+                            <div class="tab-pane fade show active"
+                                 id="tab1"
+                                 role="tabpanel"
+                                 aria-labelledby="tab--1">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab--text mt-3 mt-lg-5">
+                                            <h6>
+                                                Sitealarm
+                                            </h6>
+                                            <h2 class="mb-3">
+                                                Website Monitoring
+                                            </h2>
+                                            <p>Überwache Deine Webseite und SSL-Zertifkate. Integration von Webservices.</p>
+                                            <p>
+                                                Webseite: <a href="https://sitealarm.de">https://sitealarm.de</a>
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                                                                    <li><i class="alert-info bi bi-check"></i>PHP 8.1</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Laravel 8</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Livewire</li>
+                                                                                            </ul>
+                                            <div class="progress mt-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div><span class="d-block fz-12">
+                                                Fertiggestellt: 90%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab-thumb mt-5 ms-lg-5"><img src="project-sitealarm" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <!-- Tab Pane-->
+                            <div class="tab-pane fade show "
+                                 id="tab2"
+                                 role="tabpanel"
+                                 aria-labelledby="tab--2">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab--text mt-3 mt-lg-5">
+                                            <h6>
+                                                Projekt Manager
+                                            </h6>
+                                            <h2 class="mb-3">
+                                                Verwalte Deine Projekte online
+                                            </h2>
+                                            <p>Verwaltung von Projekten und Buche von Arbeitszeiten. Produktiver Einsatz, OpenSource Technologie und jede Menge nützliche API Features.</p>
+                                            <p>
+                                                Webseite: <a href="https://proĵect.de/">https://proĵect.de/</a>
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                                                                    <li><i class="alert-info bi bi-check"></i>PHP 8.0</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Laravel 8</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Livewire</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>OpenSource</li>
+                                                                                            </ul>
+                                            <div class="progress mt-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div><span class="d-block fz-12">
+                                                Fertiggestellt: 80%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab-thumb mt-5 ms-lg-5"><img src="project-project-mgm" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <!-- Tab Pane-->
+                            <div class="tab-pane fade show "
+                                 id="tab3"
+                                 role="tabpanel"
+                                 aria-labelledby="tab--3">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab--text mt-3 mt-lg-5">
+                                            <h6>
+                                                Server Deployment
+                                            </h6>
+                                            <h2 class="mb-3">
+                                                Management Deiner Server
+                                            </h2>
+                                            <p>Mit diesem Projekt ist es möglich, über eine einfach zu bedienende Weboberfläche Deine Server zu administrieren.</p>
+                                            <p>
+                                                Webseite: <a href="https://zhylon.de/">https://zhylon.de/</a>
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                                                                    <li><i class="alert-info bi bi-check"></i>PHP 8.1</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Laravel 8</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Livewire</li>
+                                                                                            </ul>
+                                            <div class="progress mt-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div><span class="d-block fz-12">
+                                                Fertiggestellt: 70%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab-thumb mt-5 ms-lg-5"><img src="project-zhylon" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <!-- Tab Pane-->
+                            <div class="tab-pane fade show "
+                                 id="tab4"
+                                 role="tabpanel"
+                                 aria-labelledby="tab--4">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab--text mt-3 mt-lg-5">
+                                            <h6>
+                                                URL Shortener
+                                            </h6>
+                                            <h2 class="mb-3">
+                                                Einfacher URL Shortener
+                                            </h2>
+                                            <p>Kürze Deine URL&#039;s und verwalte diese in einer übersichtlichen Anwendung.</p>
+                                            <p>
+                                                Webseite: <a href="https://ux9.de/">https://ux9.de/</a>
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                                                                    <li><i class="alert-info bi bi-check"></i>PHP 8.0</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Laravel 8</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>Livewire</li>
+                                                                                                    <li><i class="alert-info bi bi-check"></i>VueJS</li>
+                                                                                            </ul>
+                                            <div class="progress mt-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div><span class="d-block fz-12">
+                                                Fertiggestellt: 100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-9 col-md-6">
+                                        <div class="tab-thumb mt-5 ms-lg-5"><img src="project-ux9" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="mb-120 d-block"></div>
+<!-- Portfolio Area-->
+<div class="saasbox-portfolio-area pt-120 pb-120 bg-gray">
+    <div class="container">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-12 col-sm-8 col-lg-7 col-xxl-6">
+                <div class="section-heading mb-0">
+                    <h6>Eindrücke</h6>
+                    <h2>Screenshot von meinen Projekten</h2>
+                    <p>Hier kannst Du einige Screenshots von meinen Webseiten und Projekten ansehen.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-5">
+                <!--
+                <div class="text-sm-end mt-5 mt-sm-0"><a class="btn btn-primary" href="portfolio-creative.html">View All Works</a></div>
+                -->
+            </div>
+        </div>
+    </div>
+    <div class="d-block mb-80"></div>
+    <div class="container-fluid">
+        <div class="portfolio2-wrapper px-3">
+            <div class="portfolio2-slides">
+                                    <div>
+                        <!-- Single Portfolio Area -->
+                        <div class="single-portfolio-area">
+                            <img src="https://maxham.de/images/projects/project-ux9-small.png" alt="">
+                            <!-- Ovarlay Content -->
+                            <div class="overlay-content">
+                                <div class="portfolio-title">
+                                    <h6 class="mb-0">UX9 - URL Shortener</h6>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a class="portfolio-img-zoom" href="https://maxham.de/images/projects/project-ux9.png">
+                                        <i class="bi bi-arrows-fullscreen"></i>
+                                    </a>
+                                    <a href="https://ux9.de">
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div>
+                        <!-- Single Portfolio Area -->
+                        <div class="single-portfolio-area">
+                            <img src="https://maxham.de/images/projects/project-project-mgm-small.png" alt="">
+                            <!-- Ovarlay Content -->
+                            <div class="overlay-content">
+                                <div class="portfolio-title">
+                                    <h6 class="mb-0">Project Management</h6>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a class="portfolio-img-zoom" href="https://maxham.de/images/projects/project-project-mgm.png">
+                                        <i class="bi bi-arrows-fullscreen"></i>
+                                    </a>
+                                    <a href="https://proĵect.de/">
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div>
+                        <!-- Single Portfolio Area -->
+                        <div class="single-portfolio-area">
+                            <img src="https://maxham.de/images/projects/project-sitealarm-small.png" alt="">
+                            <!-- Ovarlay Content -->
+                            <div class="overlay-content">
+                                <div class="portfolio-title">
+                                    <h6 class="mb-0">Sitealarm Website Monitoring</h6>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a class="portfolio-img-zoom" href="https://maxham.de/images/projects/project-sitealarm.png">
+                                        <i class="bi bi-arrows-fullscreen"></i>
+                                    </a>
+                                    <a href="https://sitealarm.de/">
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div>
+                        <!-- Single Portfolio Area -->
+                        <div class="single-portfolio-area">
+                            <img src="https://maxham.de/images/projects/project-zhylon-small.png" alt="">
+                            <!-- Ovarlay Content -->
+                            <div class="overlay-content">
+                                <div class="portfolio-title">
+                                    <h6 class="mb-0">Zhylon - Server Deployment</h6>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a class="portfolio-img-zoom" href="https://maxham.de/images/projects/project-zhylon.png">
+                                        <i class="bi bi-arrows-fullscreen"></i>
+                                    </a>
+                                    <a href="https://zhylon.de">
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+<div class="mb-120 d-block"></div>
+<!-- Client Feedback Area-->
+<div class="client-feedback-area bg-gray pt-120 pb-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-9 col-md-8 col-lg-7">
+                <div class="section-heading text-center">
+                    <h6>Referenzen</h6>
+                    <h2>Feedback von Freunden und Bekannten</h2>
+                    <p>Projekt erfolgreich beendet oder gute Erfahrungen damit gemacht? Hier kannst du ein paar Kommentare von Freunden lesen, mit denen ich ein Projekt zusammen gestaltet habe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="client-feedback-content">
+            <div class="client-feedback-slides">
+                                    <!-- Single Feedback Slide -->
+                    <div>
+                        <div class="card feedback-card border-0 p-2 shadow-sm">
+                            <div class="card-body p-5 p-sm-4 p-md-5">
+                                <div class="client-info d-flex align-items-center">
+                                    <div class="client-thumb rounded-circle me-2 position-relative">
+                                        <img class="rounded-circle" src="https://avatar.vercel.sh/svenkatz.svg?text=SK" alt="">
+                                        <span class="rounded-circle"><i class="bi bi-check"></i></span>
+                                    </div>
+                                    <div class="client-name">
+                                        <h6 class="fz-14 mb-0">Sven Katz</h6>
+                                        <p class="mb-0 fz-12"></p>
+                                    </div>
+                                </div>
+                                <div class="ratings text-warning mt-4 mb-3 fz-14">
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                    </div>
+                                <p class="text-dark mb-0 fw-bold">Auf Dich ist immer Verlass! Habe schon viele Projekte mit Dir gemacht.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Single Feedback Slide -->
+                    <div>
+                        <div class="card feedback-card border-0 p-2 shadow-sm">
+                            <div class="card-body p-5 p-sm-4 p-md-5">
+                                <div class="client-info d-flex align-items-center">
+                                    <div class="client-thumb rounded-circle me-2 position-relative">
+                                        <img class="rounded-circle" src="https://avatar.vercel.sh/lisa.svg?text=Li" alt="">
+                                        <span class="rounded-circle"><i class="bi bi-check"></i></span>
+                                    </div>
+                                    <div class="client-name">
+                                        <h6 class="fz-14 mb-0">Lisa</h6>
+                                        <p class="mb-0 fz-12"></p>
+                                    </div>
+                                </div>
+                                <div class="ratings text-warning mt-4 mb-3 fz-14">
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                    </div>
+                                <p class="text-dark mb-0 fw-bold">Ich nutze Sitealarm seit 2016. Gibt mir immer eine gewisse Sicherheit.</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Single Feedback Slide -->
+                    <div>
+                        <div class="card feedback-card border-0 p-2 shadow-sm">
+                            <div class="card-body p-5 p-sm-4 p-md-5">
+                                <div class="client-info d-flex align-items-center">
+                                    <div class="client-thumb rounded-circle me-2 position-relative">
+                                        <img class="rounded-circle" src="https://avatar.vercel.sh/danielp.svg?text=DP" alt="">
+                                        <span class="rounded-circle"><i class="bi bi-check"></i></span>
+                                    </div>
+                                    <div class="client-name">
+                                        <h6 class="fz-14 mb-0">Daniel P</h6>
+                                        <p class="mb-0 fz-12"></p>
+                                    </div>
+                                </div>
+                                <div class="ratings text-warning mt-4 mb-3 fz-14">
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                            <i class="bi bi-star-fill"></i>
+                                                                    </div>
+                                <p class="text-dark mb-0 fw-bold">Wir haben zusammen meinen persönliche Blog aufgesetzt. Hat mir viel Spaß gemacht.</p>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+<div class="mb-120 d-block"></div>
+<!-- Partner Area-->
+<div class="partner-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center">
+                    <h2 class="mb-0">Verwendete Technologien & Provider</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="partner-wrapper">
+            <!-- Logo -->
+            <div class="partner-logo px-sm-3">
+                <a href="https://www.netcup.de">
+                    <img src="https://www.netcup-wiki.de/images/Netcup_logo_RGB_color_vorschau.png" alt="">
+                </a>
+            </div>
+            <!-- Logo -->
+            <div class="partner-logo px-sm-3"><img width="80%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Logo_Hetzner.svg/512px-Logo_Hetzner.svg.png" alt=""></div>
+            <!-- Logo -->
+            <div class="partner-logo px-sm-3"><img src="https://pluspng.com/img-png/digitalocean-logo-png-file-digitalocean-logo-png-603.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<div class="mb-120 d-block"></div>
+<!-- Cool Facts Area-->
+<div class="cta-area cta3 py-5 bg-info">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-sm-8">
+                <div class="cta-text mb-4 mb-sm-0 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+                    <h3 class="mb-0">Sieh dir auch mein GitHub Profil an!</h3>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 text-sm-end wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><a class="btn btn-warning btn-sm" href="https://github.com/TobyMaxham/">GitHub @TobyMaxham</a></div>
+        </div>
+    </div>
+</div>
+<div class="mb-120 d-block"></div>
+<!-- Footer Area-->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row g-4 g-lg-5">
+            <!-- Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget-area"><a class="d-block mb-4" href="https://maxham.de/"><img src="https://maxham.de/images/logo.png" alt=""></a>
+                    <p>Ich liebe PHP und Laravel. Willst du mit mir in Kontakt treten? Dann sende mir doch eine E-Mail</p>
+                    <!-- Newsletter Form -->
+                    <div class="newsletter-form mb-4">
+                        <form class="d-flex align-items-stretch">
+                            <input class="form-control rounded-0 rounded-start" type="email" placeholder="Deine E-Mail">
+                            <button class="btn btn-warning rounded-0 rounded-end px-3" type="submit"><i class="bi bi-arrow-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget Area-->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget-area">
+                    <h5 class="mb-4">Alle Projekte</h5>
+                    <ul class="list-unstyled">
+                                                    <li>
+                                <a href="https://sitealarm.de" target="_blank">
+                                    <i class="bi bi-caret-right"></i>Sitealarm
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://zhylon.de" target="_blank">
+                                    <i class="bi bi-caret-right"></i>Zhylon Deployment
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://ux9.de" target="_blank">
+                                    <i class="bi bi-caret-right"></i>UX9 URL-Shortener
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://proĵect.de/" target="_blank">
+                                    <i class="bi bi-caret-right"></i>Project Management
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://github.com/TobyMaxham/laravel-crm" target="_blank">
+                                    <i class="bi bi-caret-right"></i>Laravel CRM
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- Footer Widget Area-->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget-area">
+                    <h5 class="mb-4">Nützliche Links</h5>
+                    <ul class="list-unstyled">
+                                                    <li>
+                                <a href="https://blog.maxham.de" target="_blank">
+                                    <i class="bi bi-caret-right"></i> Mein Blog
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://github.com/monicahq/monica" target="_blank">
+                                    <i class="bi bi-caret-right"></i> Monica PRM
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://github.com/santwer/BearSchedule" target="_blank">
+                                    <i class="bi bi-caret-right"></i> BearSchedule
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://spatie.be/" target="_blank">
+                                    <i class="bi bi-caret-right"></i> Spatie
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://a.paddle.com/v2/click/103161/124280?link=2106" target="_blank">
+                                    <i class="bi bi-caret-right"></i> Tinkerwell
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <!-- Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget-area">
+                    <h5 class="mb-4">Kontakt</h5>
+                    <p class="lh-base mb-3">Ludwigsburg/Stuttgart/Tübingen</p>
+                    <p class="mb-0">Email: git(at)maxham(dot)de</p>
+                    <!-- Footer Social Icon -->
+                    <div class="footer-social-icon d-flex align-items-center mt-3">
+                        <a href="https://twitter.com/TobyMaxham" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://github.com/TobyMaxham/" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tobias-maxham-1bbb17125/" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/tobias.maxham" data-bs-toggle="tooltip" data-bs-placement="top" title="Facbook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copywrite-wrapper mt-5 rounded d-lg-flex align-items-lg-center justify-content-lg-between">
+            <!-- Copywrite Text -->
+            <div class="copywrite-text text-center text-lg-start mb-3 mb-lg-0 me-lg-4">
+                <p class="mb-0">2020 - 2024 &copy; All rights reserved by <a href="https://maxham.de" target="_blank">Tobias Maxham</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Scroll To Top  -->
+<div id="scrollTopButton"><i class="bi bi-arrow-up-short"></i></div>
+<div class="mb-120 d-block"></div>
+<!-- Cookie Alert Area-->
+<div class="cookiealert">
+    <p>Diese Seite verwendet Cookies. Wir verwenden Cookies, um sicherzustellen, dass Du die beste Erfahrung mit meiner Website machst.</p>
+    <button class="btn btn-primary btn-sm acceptcookies" type="button" aria-label="Close">Verstanden</button>
+</div>
+<!-- All JavaScript Files-->
+<script src="https://maxham.de/theme/projects/js/all-js-libraries.js"></script>
+<script src="https://maxham.de/theme/projects/js/active.js"></script>
 </body>
 </html>
